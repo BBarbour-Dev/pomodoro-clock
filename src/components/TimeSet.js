@@ -17,14 +17,14 @@ const TimeSet = ({ type, value }) => {
     }
   }
   return (
-    <div>
+    <div class="control">
       <h2 id={`${type.toLowerCase()}-label`}>{type} Length</h2>
-      <button id={`${type.toLowerCase()}-decrement`} onClick={handleDecrement}>
-        &darr;
-      </button>
-      <h3 id={`${type.toLowerCase()}-length`}>{val}</h3>
       <button id={`${type.toLowerCase()}-increment`} onClick={handleIncrement}>
         &uarr;
+      </button>
+      <h3 id={`${type.toLowerCase()}-length`}>{val}</h3>
+      <button id={`${type.toLowerCase()}-decrement`} onClick={handleDecrement}>
+        &darr;
       </button>
     </div>
   )

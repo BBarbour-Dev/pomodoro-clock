@@ -3,7 +3,7 @@ import React from 'react'
 const Controls = ({ activeStatus, handleReset }) => {
   const [active, setActive] = activeStatus
   return (
-    <div>
+    <div className="controls-wrapper">
       <button id="start_stop" onClick={() => setActive(!active)}>
         {active ? <span>&#10074;&#10074;</span> : <span>&#9658;</span>}
       </button>
