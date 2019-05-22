@@ -2,8 +2,9 @@
   "name": "pomodoro-clock",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://steelvoltage.github.io/js-calculator",
+  "homepage": "https://steelvoltage.github.io/pomodoro-clock",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
